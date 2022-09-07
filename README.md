@@ -9,6 +9,8 @@ Integrantes : Vicente Jorquera.
 1. Descargar como Zip el repositorio.
 
 2. Una vez descargado, extraer los archivos y ejecutar el archivo exe.
+3. *anexo
+4. agregarItem, Crearpersoanje y verificarexistente tienen un punto inecesario en cantidad.
 
 
 *Funciones que funcionan correctamente:
