@@ -338,7 +338,7 @@ void AgregarItemNuevo(List* Lista_pj){
     	fflush(stdin);
     	scanf("%d", &cant);
     	CrearPersonaje(Lista_pj,Personaje,tipo_item,nombre_item,cant);
-    	printf("Su Personaje fue creado, y su item añadido\n");
+    	printf("Su Personaje fue creado, y su item aÃ±adido\n");
     }else{
     	printf("Ingrese tipo de Item (Equipable/Consumible)\n");
     	fflush(stdin);
@@ -350,7 +350,7 @@ void AgregarItemNuevo(List* Lista_pj){
     	fflush(stdin);
     	scanf("%d", &cant);
     	AgregarItem(Lista_pj,mostrar,tipo_item,nombre_item,cant);
-    	printf("su item fue añadidos\n");
+    	printf("su item fue aÃ±adidos\n");
 	}
     
 
@@ -360,7 +360,7 @@ void ExportarItem(FILE * file, List *Lista_pj){
 	char filename[100];
 	printf("Ingrese el nombre del fichero (inlcuyendo la extension): \n");
 	scanf("%s",filename);
-	FILE  *archivoPJ = fopen(filename,"wt");  
+	FILE  *archivoPJ = fopen(filename,"w");  
 	if (filename== NULL){
 		return;
 	}
